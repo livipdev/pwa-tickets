@@ -1048,20 +1048,30 @@
   dependencies:
     emojis-list "^3.0.0"
 
-"@livipdev/config@../design-system/packages/config/dist":
+"@livipdev/config@^1.1.0":
   version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.1.0/60fe4359cc9790d2ad81e72bd5045430ce3bc99eeb0dfec67b42b7bc1056f7ad#a9fa16ae354182dbd49dc45b420f01e4f9283730"
+  integrity sha512-KWTjPanniThI+lEciBWZSFKibXaILPWJioWVgO5bz9Sm+DAS6ZggcYovu9dv+9EQVC/NPlGEDJblMzDElO9D1w==
 
-"@livipdev/containers@../design-system/packages/containers/dist":
+"@livipdev/containers@^1.1.0":
   version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.1.0/a93e185c88f71f45ba0aee6ff864b59f7a0298d01027b8fbb82d39fae5e95ea0#d44807e9d99c3941386756308d0b5ad267f7bf5e"
+  integrity sha512-i36a+N5ducSXLSYjQrOlQ88pdNYgMEpiwzcQDw1ttL35HaFpqv1AMpypnfJEruicvLjI7bm17s6yutfbCE+tBA==
 
-"@livipdev/core@../design-system/packages/core/dist":
+"@livipdev/core@^1.1.0":
   version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.1.0/c36776b8f3919dde9beb513a7d3946be45731614fba4d8d43ce800c6b27cafa6#623b00f70b564f5fd62d92ee1965c68678f325e2"
+  integrity sha512-zSr4qj5ZnneAReGIKXN4I0vAC3NQjsTMWHHUWJ3isWCaJSTL8c7f/JGXfBqSY5IQCeFs+AClQuIS+jFepWi9Vg==
 
-"@livipdev/icons@../design-system/packages/icons/dist":
+"@livipdev/icons@^1.1.0":
   version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.1.0/ecbfa3ce32bbc70a8f8c8b555f258f677dabec876969366bd2e8a217dc98edf9#49d1885ff86e11650560d5a205ec0efc5ae613e6"
+  integrity sha512-27YsvYOqlSWkqbETZ9d0/Sw64xOvPw0A9oreqtcrRF1vW3rptoEHlKLeCI7GbFd3JP3VElrTUjpaPNpmRhNKtw==
 
-"@livipdev/tokens@../design-system/packages/tokens/dist":
+"@livipdev/tokens@^1.1.0":
   version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.1.0/63d54c129a8fb4d9680b416fb54bb3726915c8a0bef784faf4288e355dbbf343#1e3612c783103e02c385d463ac9089312477cbd7"
+  integrity sha512-XOIWAOwEj/jQbHHtty9RiRLS62aX53Otc7gWfGWomgFdhowl9VJEonehOl7uYWVyZF/cyEzE+sF1ESI/b1l62A==
 
 "@material-ui/core@^4.9.5":
   version "4.10.2"

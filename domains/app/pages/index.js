@@ -1,21 +1,15 @@
 import React, { Fragment } from 'react';
-import { useIntl, defineMessages } from 'react-intl';
 
-const messages = defineMessages({
-  test: {
-    id: `test`,
-    defaultMessage: 'Oh geez!',
-  },
-});
+import IntlBoilerplate from 'components/Boilerplates/Intl';
+import ReduxBoilerplate from 'components/Boilerplates/Redux';
+import SagasBoilerplate from 'components/Boilerplates/Sagas';
 
-const Index = () => {
-  const intl = useIntl();
-
-  return (
-    <Fragment>
-      { intl.formatMessage(messages.test) }
-    </Fragment>
-  );
-};
+const Index = () => (
+  <Fragment>
+    <IntlBoilerplate /> <br/>
+    <ReduxBoilerplate />
+    <SagasBoilerplate />
+  </Fragment>
+);
 
 export default Index;

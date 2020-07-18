@@ -1,12 +1,12 @@
 import React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import NextDocument, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets, theme } from '@livipdev/core/styles';
 
 const globalStyles = {
   backgroundColor: '#ffffff',
 };
 
-export default class TravelDocument extends Document {
+class Document extends NextDocument {
   static async getInitialProps(ctx) {
     const sheets = new ServerStyleSheets();
     const originalRenderPage = ctx.renderPage;
@@ -16,7 +16,7 @@ export default class TravelDocument extends Document {
         enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
       });
 
-    const initialProps = await Document.getInitialProps(ctx);
+    const initialProps = await NextDocument.getInitialProps(ctx);
 
     return {
       ...initialProps,
@@ -55,4 +55,6 @@ export default class TravelDocument extends Document {
       </Html>
     );
   }
-}
+};
+
+export default Document;

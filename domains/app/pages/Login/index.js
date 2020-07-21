@@ -1,24 +1,22 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import ContainerWithBackground from '@livipdev/core/ContainerWithBackground';
 import Typography from '@livipdev/core/Typography';
+import ContainerWithBackground from '@livipdev/core/ContainerWithBackground';
 import Box from '@livipdev/core/Box';
 import Grid from '@livipdev/core/Grid';
 
-import Footer from 'components/Footer';
 import SimpleHeader from 'components/SimpleHeader';
 import LoginForm from 'components/LoginForm';
-import FullScreenContainer from 'components/FullScreenContainer';
 
 import messages from './messages';
 
 const Login = () => (
-  <FullScreenContainer background="/images/bg-login.jpg">
+  <ContainerWithBackground background="/images/bg-login.jpg">
     <SimpleHeader />
-    <Grid container justify="center">
-      <Grid xs={12} md={4}>
-        <Box display="flex" flexDirection="column" component="form" mt={9}>
+    <Box px={2} container justify="center" alignItems="center" component={Grid} height="calc(100vh - 75px)">
+      <Grid item xs={12} md={4}>
+        <Box display="flex" flexDirection="column" component="form">
           <Typography variant="h3" gutterBottom>
             <FormattedMessage {...messages.loginTitle} />
           </Typography>
@@ -33,9 +31,8 @@ const Login = () => (
           </Box>
         </Box>
       </Grid>
-    </Grid>
-    <Footer />
-  </FullScreenContainer>
+    </Box>
+  </ContainerWithBackground>
 );
 
 export default Login;

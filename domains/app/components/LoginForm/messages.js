@@ -10,5 +10,9 @@ export default defineMessages({
   rememberMe: {
     id: 'app.components.LoginForm.rememberMe',
     defaultMessage: 'Lembre-se de mim',
+  },
+  submitButton: {
+    id: 'app.components.LoginForm.submitButton',
+    defaultMessage: 'Entrar',
   }
 });

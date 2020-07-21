@@ -10,14 +10,18 @@ import messages from './messages';
 
 const LoginForm = () => (
   <Fragment>
-    <TextField label="E-mail" />
+    <Box mb={3}>
+      <TextField label="E-mail" fullWidth />
+    </Box>
     <TextField label="Senha" />
     <Box my={3} component="a" href="#" textAlign="center">
       <Typography variant="body1">
         <FormattedMessage {...messages.forgotPassword} />
       </Typography>
     </Box>
-    <Button variant="containedSecondary">Entrar</Button>
+    <Button variant="containedSecondary">
+      <FormattedMessage {...messages.submitButton} />
+    </Button>
     <Box mt={2} textAlign="center">
       <Typography variant="body1">
         <FormattedMessage {...messages.rememberMe} />

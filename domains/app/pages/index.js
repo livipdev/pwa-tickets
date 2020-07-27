@@ -1,15 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
+import PublicRoute from 'components/Routes/Public';
 import IntlBoilerplate from 'components/Boilerplates/Intl';
 import ReduxBoilerplate from 'components/Boilerplates/Redux';
 import SagasBoilerplate from 'components/Boilerplates/Sagas';
 
 const Index = () => (
-  <Fragment>
+  <PublicRoute>
     <IntlBoilerplate /> <br/>
     <ReduxBoilerplate />
     <SagasBoilerplate />
-  </Fragment>
+  </PublicRoute>
 );
 
 export default Index;

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import TextField from '@livipdev/core/TextField';
@@ -7,15 +7,37 @@ import Box from '@livipdev/core/Box';
 
 import messages from './messages';
 
-const ForgotPasswordForm = () => (
-  <Fragment>
-    <Box mb={5} width="100%">
-      <TextField label="Digite seu e-mail" fullWidth />
+const ForgotPasswordForm = ({ onSubmit }) => {
+  const [email, setEmail] = useState('');
+
+  const submitFormData = (e) => {
+    e.preventDefault();
+
+    onSubmit({
+      email,
+    });
+  };
+
+  const handleEmail = (event) => {
+    setEmail(event.target.value);
+  };
+
+  return (
+    <Box component="form" display="flex" flexDirection="column" onSubmit={submitFormData}>
+      <Box mb={5} width="100%">
+        <TextField
+          label="Digite seu e-mail"
+          type="email"
+          fullWidth
+          value={email}
+          onChange={handleEmail}
+        />
+      </Box>
+      <Button variant="containedPrimary" type="submit">
+          <FormattedMessage {...messages.submitButton} />
+        </Button>
     </Box>
-    <Button variant="containedPrimary">
-        <FormattedMessage {...messages.submitButton} />
-      </Button>
-  </Fragment>
-);
+  )
+};
 
 export default ForgotPasswordForm;

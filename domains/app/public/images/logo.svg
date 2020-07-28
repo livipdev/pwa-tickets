@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="102" height="38" viewBox="0 0 102 38">
-    <g fill="none" fill-rule="evenodd">
-        <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="37.44" font-weight="bold" transform="translate(-3 -6)">
-            <tspan x="0" y="36">Livip</tspan>
-        </text>
-        <path fill="#B63366" d="M101.026 29c-2.23-.008-4.022 1.781-4.026 4.026.003 2.18 1.813 3.98 3.998 3.974 2.227-.006 3.988-1.782 4.002-4.007.014-2.217-1.817-3.985-3.974-3.993" transform="translate(-3 -6)"/>
-    </g>
-</svg>

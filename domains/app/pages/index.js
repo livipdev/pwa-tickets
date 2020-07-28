@@ -6,7 +6,7 @@ import Login from './Login';
 
 const Index = () => (
   <PublicRoute>
-    <Login />
+    home
   </PublicRoute>
 );
 

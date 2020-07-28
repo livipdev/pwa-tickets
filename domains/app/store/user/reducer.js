@@ -5,23 +5,18 @@ import storage from 'redux-persist/lib/storage';
 import initialState from './initialState';
 import { ACTION_TYPES } from './constants';
 
-const handleTestUpdate = (state, action) => {
-  state.test = action.payload;
-};
-
-const handleTestStart = (state) => {
+const handleSignInStart = (state) => {
   state.loading = true;
 };
 
-const handleTestFinish = (state, action) => {
+const handleSignInFinish = (state, action) => {
   state.loading = false;
-  state.payload = action.payload;
+  state.auth_token = action.payload.token;
 };
 
 const reducer = createReducer(initialState, {
-  [ACTION_TYPES.TEST.UPDATE]: handleTestUpdate,
-  [ACTION_TYPES.TEST.START]: handleTestStart,
-  [ACTION_TYPES.TEST.FINISH]: handleTestFinish,
+  [ACTION_TYPES.SIGN_IN.START]: handleSignInStart,
+  [ACTION_TYPES.SIGN_IN.FINISH]: handleSignInFinish,
 });
 
 const persistConfig = {

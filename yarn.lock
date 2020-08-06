@@ -1055,30 +1055,30 @@
   dependencies:
     emojis-list "^3.0.0"
 
-"@livipdev/config@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.1.0/60fe4359cc9790d2ad81e72bd5045430ce3bc99eeb0dfec67b42b7bc1056f7ad#a9fa16ae354182dbd49dc45b420f01e4f9283730"
-  integrity sha512-KWTjPanniThI+lEciBWZSFKibXaILPWJioWVgO5bz9Sm+DAS6ZggcYovu9dv+9EQVC/NPlGEDJblMzDElO9D1w==
+"@livipdev/config@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.0.0/e9d7a8f205d6a4274333f4b2f32f838d05166879b3ce6c241933d07aeeaed9b0#8bf0bdf8041a186c2609a642ddc759f9c793d34d"
+  integrity sha512-fH51TuS6aybjJmdpYKTOIRLsEZ2PkbGCYWAxCz+ZXs1IrvkjYgIFXcCKXLuLcCdZPM4SKoFS5rhiUirOCDoxTw==
 
-"@livipdev/containers@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.1.0/a93e185c88f71f45ba0aee6ff864b59f7a0298d01027b8fbb82d39fae5e95ea0#d44807e9d99c3941386756308d0b5ad267f7bf5e"
-  integrity sha512-i36a+N5ducSXLSYjQrOlQ88pdNYgMEpiwzcQDw1ttL35HaFpqv1AMpypnfJEruicvLjI7bm17s6yutfbCE+tBA==
+"@livipdev/containers@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.0.0/9c4911d77798c4ef04e934826505c5872d5e924115b248ac064d516db1eefb53#db15366d505728634e6d592160ba9b24e0c8353c"
+  integrity sha512-k8nSvGBSlyBRX3fqZIMUkcnnzdwD5pPeNLXzFUNATf3ARvZkShdTLToZlxvmb7KkvQpK3M+va9fbICShAP3n2Q==
 
-"@livipdev/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.1.0/c36776b8f3919dde9beb513a7d3946be45731614fba4d8d43ce800c6b27cafa6#623b00f70b564f5fd62d92ee1965c68678f325e2"
-  integrity sha512-zSr4qj5ZnneAReGIKXN4I0vAC3NQjsTMWHHUWJ3isWCaJSTL8c7f/JGXfBqSY5IQCeFs+AClQuIS+jFepWi9Vg==
+"@livipdev/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.0/7c0321652e4868590935235a49e6c25f82849e92bd48611ee98b7ebcb78889e0#294a40ed9937b95ca31e91ef02e8c6a55a0e6f07"
+  integrity sha512-QH3ZBdhT2FPwdJ2/j4M0gnFps3lvRsCQNDczSaJeQ1k+POCkSWhNAVekMICAr0W5heIBRV3xB1rfcVHjZj2t7w==
 
-"@livipdev/icons@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.1.0/ecbfa3ce32bbc70a8f8c8b555f258f677dabec876969366bd2e8a217dc98edf9#49d1885ff86e11650560d5a205ec0efc5ae613e6"
-  integrity sha512-27YsvYOqlSWkqbETZ9d0/Sw64xOvPw0A9oreqtcrRF1vW3rptoEHlKLeCI7GbFd3JP3VElrTUjpaPNpmRhNKtw==
+"@livipdev/icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.0.0/f8b72e0de568e59fadb93c3d712a178c87c1f823ca20ff64cffa1a358a67aff6#78148f4e05d91e6f1435a3f30247e83549fc414e"
+  integrity sha512-GUf5xB+Ec1inT6ba7wgLxesYElCdRQ3pfK0bF3MR9IitLFXT+6mAnuVY9x36ZyrCWY184RGm4B9EULI5ESj/WQ==
 
-"@livipdev/tokens@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.1.0/63d54c129a8fb4d9680b416fb54bb3726915c8a0bef784faf4288e355dbbf343#1e3612c783103e02c385d463ac9089312477cbd7"
-  integrity sha512-XOIWAOwEj/jQbHHtty9RiRLS62aX53Otc7gWfGWomgFdhowl9VJEonehOl7uYWVyZF/cyEzE+sF1ESI/b1l62A==
+"@livipdev/tokens@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.0.0/75867277a1194f70e4b351c2e91e8c0655f33a46642c8a1855f6cc76f61784ba#eb44a456aee45974b41c2644ca9bf817cf1d4009"
+  integrity sha512-jxLnFJ2KsNMKVgMC4e75TcgqaP8QC2O36KZabg1QdRnSTP+si0SY1NVVBhzjVuqwkCAzoSyKcJCnhF8+0UIlSA==
 
 "@material-ui/core@^4.9.5":
   version "4.10.2"

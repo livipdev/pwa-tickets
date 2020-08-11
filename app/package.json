@@ -8,10 +8,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "next build domains/app",
+    "build": "next build",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "start:dev": "node domains/server"
+    "start": "next start",
+    "start:dev": "next dev"
   },
   "dependencies": {
     "@livipdev/config": "^1.0.0",

@@ -1,7 +1,7 @@
 const initialState = {
+  auth_token: null,
   loading: false,
-  test: '',
-  payload: '',
+  error: null,
 };
 
 export default initialState;

@@ -4,7 +4,7 @@
 # -----------------------------------------------------------------------------
 
 declare hacks_path=${0}
-declare tickets_path=${1:-../pwa-tickets}
+declare tickets_path=${1:-../pwa-tickets/app}
 declare ds_path=${2:-../design-system}
 declare dist_path=${3:-node_modules/@livipdev}
 
@@ -37,11 +37,11 @@ function build_ds {
 function install_ds {
   cd $tickets_path
   yarn add \
-    $ds_path/packages/containers/dist \
-    $ds_path/packages/config/dist \
-    $ds_path/packages/icons/dist \
-    $ds_path/packages/tokens/dist \
-    $ds_path/packages/core/dist
+    ../$ds_path/packages/containers/dist \
+    ../$ds_path/packages/config/dist \
+    ../$ds_path/packages/icons/dist \
+    ../$ds_path/packages/tokens/dist \
+    ../$ds_path/packages/core/dist
 }
 
 function run_dev {

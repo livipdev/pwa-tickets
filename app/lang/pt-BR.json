@@ -1,3 +1,8 @@
 {
-  "test": "Oh geez em português!"
+  "app.home.head.title": "Livip Incentive - A melhor forma de viver eventos esportivos",
+  "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
+
+  "app.header.menu.sub.tickets.items.events": "Eventos",
+  "app.header.menu.sub.tickets.items.login": "Login"
 }

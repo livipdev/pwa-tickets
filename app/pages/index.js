@@ -2,11 +2,13 @@ import React from 'react';
 
 import PublicRoute from 'components/Routes/Public';
 
-import Login from './Login';
+import Home from 'containers/Home';
+import Head from 'components/Heads/Home';
 
 const Index = () => (
   <PublicRoute>
-    home
+    <Head />
+    <Home />
   </PublicRoute>
 );
 

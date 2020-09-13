@@ -3,7 +3,7 @@ const config = require('@livipdev/config').default;
 const serverRuntimeConfig = {};
 
 const publicRuntimeConfig = {
-  variant: config.variants.travel,
+  variant: config.variants.tickets,
 };
 
 const nextConfig = {

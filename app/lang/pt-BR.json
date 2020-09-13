@@ -4,5 +4,9 @@
   "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
 
   "app.header.menu.sub.tickets.items.events": "Eventos",
-  "app.header.menu.sub.tickets.items.login": "Login"
+  "app.header.menu.sub.tickets.items.login": "Login",
+
+  "app.home.highlight.title": "Eleve sua próxima experiência",
+  "app.home.highlight.subtitle": "Deixe por nossa conta, somos experts em eventos vip no mundo todo.",
+  "app.home.highlight.suptitle": "Bem-vindo"
 }

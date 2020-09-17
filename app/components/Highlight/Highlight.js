@@ -5,6 +5,9 @@ import Grid from '@livipdev/core/Grid';
 import Title from '@livipdev/core/Title';
 import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
+import HomeHighlightButtons from 'components/HomeHighlightButtons';
+import { response } from 'api/homeHighlights';
+
 import messages from './messages';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
@@ -38,6 +41,7 @@ const Highlight = ({ classes, background, variant }) => {
             maxWidth={SCREEN_SIZES.MEDIUM}
             marginBottom="3.75rem"
           />
+          <HomeHighlightButtons events={response} />
         </Grid>
       </Grid>
     </ContainerWithBackground>
